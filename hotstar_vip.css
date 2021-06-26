@@ -4,16 +4,33 @@
 }
 .header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   position: fixed;
   background-color: #334366;
 }
-
-.c1 {
+h2 {
   color: white;
-  font-size: 19;
-  margin-top: 1;
-  margin-left: 1;
+  font-size: 21px;
+  font-style: bold;
+  font-family: lucida Handwriting;
+  margin-top: 25px;
+}
+.header_right {
+  float: right;
+
+  margin-top: -20px;
+  margin-right: 60px;
+}
+.header_right button {
+  background: #334366;
+  text-decoration: none;
+  color: white;
+}
+.header_right button {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .subtit {
   text-align: center;
@@ -82,7 +99,7 @@ body {
   bottom: 0;
   background-color: #334366;
   height: 130px;
-  width: 200%;
+  width: 100%;
 }
 .b3 {
   font-size: 12px;
